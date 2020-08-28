@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url("pics/fire4.png")
+}
+
+content {
+    background-image: url("pics/fire.png")
+}
+
+body {
+    background-image: url("pics/banner\ fire.png")
+}
+
+body {
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45)
+      )
+    }
+
+p {
+    background-color: #ff0000(255, 99, 71, 0.8);
+}
+
+* {
+    image-resolution: 100px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 50px;
+    content: 50px;
+    border: 78px;
+    margin: 8px;
+}
+
+
+.large {
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+}
+
+#Gen {
+    color: blueviolet
+}
+
+#non {
+    color: yellowgreen
+}
+
+h2 {
+    color: blue; 
+    font-size-adjust: 30px;
+    text-align: center    
+}
+
+h1 {
+    color: green;
+    text-align: center
+}
+
+h3 {
+    color: yellow;
+    text-align: center
+}
+
+.centre {
+    text-align: center;
+}
+
+a:link {
+    color: purple;
+  }
+
+a:visited {
+    color: greenyellow;
+}
+
+a:active {
+    color: rgb(255, 0, 128);
+}
+
+
+/* 
+<!-- selector/ elementtag  {
+    property: value;
+    property: value;
+        } -->
+<!-- 
+    h1  {
+        color: red;
+        font-size: 12px;
+    }
+    * {
+        background-color: aliceblue;
+        font-size: 12px;
+    }
+    * large {
+        font-size: 50px;
+    }
+    <p class="large">
+    
+    <h1 class="makemered">Heading 1</h1>
+    
+    <div>
+    .makemered {}
+    .centre {text-align: center;}
+content padding border 
+
+box-sizing: border-box
+padding: 25px; top right bottom left
+write four numbers for 4 values
+two values: top bottom 
+# means id        
+auto: the browser calcs
+length: define height/width in px
+%: width percentage
+img (width: 100%)
+
+- string(tomato)
+hex(#)
+RGB vales(1, 1, 1)
+red green bue transparence 0.2 
+
+body {background-image: url("file.jpg")}
+font size color style italic oblique
+{
+font family 'Roboto', sans-serif;
+}
+flexbox menu bat */
+
+
+
+/* 
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+/* * {
+    box-sizing: border-box;
+} */
+
+/* .container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row; */
+    /* flex-wrap: wrap;
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;   
+    width: 20%;
+    height: 40%;
+    font-size: 10px;
+} */
+
+/* Colours for each box */
+
+/* .box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; }
+.box5 { background: #f1c40f; }
+.box6 { background: #e67e22; }
+.box7 { background: #2ed573; }
+.box8 { background: #1e90ff; }
+.box9 { background: #c56cf0; }
+.box10 { background: #18dcff; } */
+/* 
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    color:white;
+    font-size: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:15px;  
+}
+  
+  .box1 { background:#eccc68;}
+  .box2 { background:#ff6348;
+    flex: 2;}
+  .box3 { background:#ff7f50;}
+  .box4 { background:#ff4757;}
+  .box5 { background:#f1c40f;}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
